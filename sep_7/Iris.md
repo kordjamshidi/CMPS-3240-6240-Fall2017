@@ -79,7 +79,7 @@ np.mean(X,0)
 
 
 ```python
-np.var(X, 0)
+np.std(X, 0)
 ```
 
 
@@ -106,7 +106,7 @@ np.mean(X[y==0], 0)
 
 
 ```python
-np.var(X[y==0], 0)
+np.std(X[y==0], 0)
 ```
 
 #### versicolor
@@ -118,7 +118,7 @@ np.mean(X[y==1], 0)
 
 
 ```python
-np.var(X[y==1], 0)
+np.std(X[y==1], 0)
 ```
 
 #### virginica
@@ -130,7 +130,7 @@ np.mean(X[y==2], 0)
 
 
 ```python
-np.var(X[y==2], 0)
+np.std(X[y==2], 0)
 ```
 
 ### Using the statistics to make a guess
